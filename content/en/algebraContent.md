@@ -7,7 +7,7 @@ previous: "index.html"
 # Algebra of Complex Number Contents
 
 #### <img id="folderImg" src="../assets/img/folder.png" class="icon">[Files](algebraFiles.html)
-#### [Forumala Sheet](formulas.html)
+#### [Forumula Sheet](formulas.html)
 #### [Surds](surds.html)
 #### [Conjugate Surds](page.html)
 #### [Complex Number Rules](page.html)
