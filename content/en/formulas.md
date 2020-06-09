@@ -1,11 +1,8 @@
 ---
-title: "Surds"
+title: "Algebra NCEA Formula Sheet"
 language: "en"
-previous: "mathContent.html"
+previous: "surds.html"
 ---
-
-## Surds (Roots)
-
 <div markdown="1">
     <iframe src="../assets/math/algebra/files/L3-Maths-Formulae-2013.pdf" width="100%" height="900px">
 </div>
