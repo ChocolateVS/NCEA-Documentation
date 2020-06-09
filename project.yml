@@ -1,0 +1,7 @@
+project_name: NCEA LEVEL 3 <br> MATH - PHYSICS - CHEM
+project_description: Notes for all standards in Math, Phsics and Chemistry at Level 3
+project_url: https://chocolatevs.github.io/NCEA/
+
+default_language: en
+lunr_search: true
+default_order_alphabetical: true

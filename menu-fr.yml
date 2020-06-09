@@ -1,0 +1,60 @@
+---
+language: fr
+---
+- title: '<i class="fa fa-home" aria-hidden="true"></i> Home'
+  link: 'index.html'
+  weight: 0
+
+- title: 'Mathematics'
+  link: '#'
+  weight: 1
+  children:
+    - title: 'Algebra'
+      link: '#'
+      weight: 0
+    - title: 'Differentiation'
+      link: '#'
+      weight: 1
+    - title: 'Integration'
+      link: '#'
+      weight: 2
+
+- title: 'Physics'
+  link: 'page.html'
+  weight: 2
+  children:
+    - title: 'Nuclear Physics'
+      link: '#'
+      weight: 0
+    - title: 'Mechanics'
+      link: '#'
+      weight: 1
+    - title: 'Electricity & Magnetism'
+      link: '#'
+      weight: 2
+    - title: 'Light and Waves'
+      link: '#'
+      weight: 3
+
+- title: 'Chemistry'
+  link: 'https://www.skyost.eu'
+  weight: 3
+  children:
+    - title: 'Spectroscopy'
+      link: '#'
+      weight: 0
+    - title: 'Redox'
+      link: '#'
+      weight: 1
+    - title: 'Organic Chem'
+      link: '#'
+      weight: 2
+    - title: 'Structure and Bonding'
+      link: '#'
+      weight: 3
+    - title: 'Aqueos Chem'
+      link: '#'
+      weight: 4
+    - title: 'Thermo Chem'
+      link: '#'
+      weight: 5
