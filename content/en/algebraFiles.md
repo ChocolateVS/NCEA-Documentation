@@ -1,7 +1,7 @@
 ---
 title: "Algebra of Complex number"
 language: "en"
-previous: "index.html"
+previous: "algebraContent.html"
 ---
 
 # Algebra of Complex Number Contents

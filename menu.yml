@@ -58,3 +58,7 @@ language: en
     - title: 'Thermo Chem'
       link: '#'
       weight: 5
+
+- title: 'Suggest an edit <img class="pen_icon" src="../assets/img/pen.png"></img>'
+  link: 'editSuggest.html'
+  weight: 4
