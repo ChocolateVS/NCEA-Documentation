@@ -1,7 +1,7 @@
 ---
-title: "Surds"
+title: "Solving Quadratic Equations"
 language: "en"
-previous: "mathContent.html"
+previous: "completingTheSquare.html"
 ---
 
 ## Solving Quadratic Equations 
