@@ -13,41 +13,44 @@ language: en
       link: 'algebraContent.html'
       weight: 0
     - title: 'Differentiation'
-      link: '#'
+      link: 'diffContent.html'
       weight: 1
     - title: 'Integration'
-      link: '#'
+      link: 'intContent.html'
       weight: 2
     - title: 'Trigonometery'
-      link: '#'
+      link: 'trigContent.html'
       weight: 3
 
 - title: 'Physics'
   weight: 2
+  link: 'physicsContent.html'
   children:
     - title: 'Nuclear Physics'
-      link: '#'
+      link: 'nuclearContent.html'
       weight: 0
     - title: 'Mechanics'
-      link: '#'
+      link: 'mechanicsContent.html'
       weight: 1
     - title: 'Electricity & Magnetism'
-      link: '#'
+      link: 'electricityContent.html'
       weight: 2
     - title: 'Light and Waves'
-      link: '#'
+      link: 'wavesContent.html'
       weight: 3
 
 - title: 'Chemistry'
   weight: 3
+  link: 'chemContent.html'
   children:
     - title: 'Spectroscopy'
+      link: 'spectroContent.html'
       weight: 0
     - title: 'Redox'
-      link: '#'
+      link: 'redoxContent.html'
       weight: 1
     - title: 'Organic Chem'
-      link: '#'
+      link: 'organicContent.html'
       weight: 2
     - title: 'Structure and Bonding'
       link: '#'

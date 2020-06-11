@@ -22,6 +22,7 @@ previous: "idea.html"
     <p style="display:inline"> Divident: \( x^3 - 5x^2 + 2x + 8 \) </p><br>
     <p style="display:inline"> Divisor: \( x + 1 \) </p><br>
     Write 
-    <p style="display:inline"> Divide \( \polylongdiv{2x^2-3x+8}{x+3}  \) </p><br>
-    
+    <p style="display:inline"> 
+    \polylongdiv{X^3+X^2-1}{X-1}
+    </p><br>
 </div>

@@ -29,6 +29,15 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
 
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+       extensions: ["autobold.js"] }});
+       tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
 src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js">
@@ -60,44 +69,44 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js">
 <a href="algebraContent.html">Algebra of complex number</a>
 </li>
 <li>
-<a href="#">Differentiation</a>
+<a href="diffContent.html">Differentiation</a>
 </li>
 <li>
-<a href="#">Integration</a>
+<a href="intContent.html">Integration</a>
 </li>
 <li>
-<a href="#">Trigonometery</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#">Physics</a>
-<ul>
-<li>
-<a href="#">Nuclear Physics</a>
-</li>
-<li>
-<a href="#">Mechanics</a>
-</li>
-<li>
-<a href="#">Electricity & Magnetism</a>
-</li>
-<li>
-<a href="#">Light and Waves</a>
+<a href="trigContent.html">Trigonometery</a>
 </li>
 </ul>
 </li>
 <li>
-<a href="#">Chemistry</a>
+<a href="physicsContent.html">Physics</a>
 <ul>
 <li>
-<a href="#">Spectroscopy</a>
+<a href="nuclearContent.html">Nuclear Physics</a>
 </li>
 <li>
-<a href="#">Redox</a>
+<a href="mechanicsContent.html">Mechanics</a>
 </li>
 <li>
-<a href="#">Organic Chem</a>
+<a href="electricityContent.html">Electricity & Magnetism</a>
+</li>
+<li>
+<a href="wavesContent.html">Light and Waves</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="chemContent.html">Chemistry</a>
+<ul>
+<li>
+<a href="spectroContent.html">Spectroscopy</a>
+</li>
+<li>
+<a href="redoxContent.html">Redox</a>
+</li>
+<li>
+<a href="organicContent.html">Organic Chem</a>
 </li>
 <li>
 <a href="#">Structure and Bonding</a>
@@ -124,7 +133,7 @@ Powered by <a href="https://skydocs.skyost.eu">SkyDocs</a> v0.7.4 Beta, By Rowan
 <article class="col-md-12 col-lg-9">
 <section id="article-header" class="clearfix">
 
-<small class="date text-muted">Jun 11, 2020, 10:05:17 AM</small>
+<small class="date text-muted">Jun 12, 2020, 3:21:33 AM</small>
 </section>
 <section>
 <h1>Search results</h1>
@@ -134,7 +143,7 @@ Powered by <a href="https://skydocs.skyost.eu">SkyDocs</a> v0.7.4 Beta, By Rowan
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.4/lunr.min.js"></script>
 <script type="text/javascript">
 
-	const PAGES = {'-en-dividingPolynomials.html': {title: 'Dividing Polynomials - Algebraic Fractions', content: 'Dividing Polynomials - Algebraic FractionsMethod for Long divisionArrange the divisor and the dividend in descending powers of x.Each ter...', url: 'en/dividingPolynomials.html'}, '-en-algebraFormulas.html': {title: 'Algebra NCEA Formula Sheet', content: '      \[-b \pm \sqrt{b^2-4ac}\] -->', url: 'en/algebraFormulas.html'}, '-en-algebraFiles.html': {title: 'Algebra of Complex number', content: 'Algebra of Complex Number ContentsFormula SheetMr Lal\'s - Algebra of complex number notes2018 algebra testMINI QUIZ answers for the quiz ...', url: 'en/algebraFiles.html'}, '-en-solving.html': {title: 'Solving Quadratic Equations', content: 'Solving Quadratic EquationsA quadratic equation can be solved either by completing the square or by factorising or by using the quadratic...', url: 'en/solving.html'}, '-en-completingTheSquare.html': {title: 'Surds', content: 'Completing the squareIt means that you write the quadratic expression, \( ax^2 + bx +c \) in the form a \(a(x+p)^2 + q\) where a, b, c, p...', url: 'en/completingTheSquare.html'}, '-en-mathContent.html': {title: 'New page', content: 'Mathematics Contents  Algebra of Complex number  Differentiation  Integration  Trigonometry', url: 'en/mathContent.html'}, '-en-algebraContent.html': {title: 'Algebra of Complex number', content: 'Algebra of Complex Number ContentsFilesForumula SheetSurdsComplex NumberPlotting Complex Number on Argand DiagramCompleting the squareSol...', url: 'en/algebraContent.html'}, '-en-editSuggest.html': {title: 'Suggest an edit', content: 'Suggest an edit If you have come accross a mistake or would like to request a change in any of the resources, please leave a description ...', url: 'en/editSuggest.html'}, '-en-index.html': {title: 'Home', content: 'WelcomeHi there, Welcome to my documentation for NCEA Level 3 - Math, Physics, and Chemistry!This site is currently being developed and t...', url: 'en/index.html'}, '-en-complex.html': {title: 'Complex Numbers', content: 'Complex numbersUnder real number system square roots of negative numbers does not exist. But in complex number system it is possible to f...', url: 'en/complex.html'}, '-en-surds.html': {title: 'Surds', content: 'Surds (Roots)Surds are such expressions as \(\sqrt{7}\sqrt[3]{40}\) which cannot be evaluated exactly. They are irrational. Expressions i...', url: 'en/surds.html'}, '-en-idea.html': {title: 'Applying the idea of solving equations to complex number', content: 'Applying the idea of solving equations to complex numberRearranging formula or rule means we write a given letter in terms of another let...', url: 'en/idea.html'}, '-en-argand.html': {title: 'Argand Diagram - Plotting Complex Number', content: 'Plotting Complex Number on argand diagram Every complex number can be expressed as a point in the complex plane as it is expressed in the...', url: 'en/argand.html'}, '-en-page.html': {title: 'New page', content: 'PageThis is just a new page. You can edit it if you want !Paragraph 1Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. ...', url: 'en/page.html'}, '-en-rearrange.html': {title: 'Re-arranging Formula', content: 'Re-arranging FormulaRearranging formula or rule means we write a given letter in terms of another letter with numbers (.i.e. solve the eq...', url: 'en/rearrange.html'}, '-en-discriminant.html': {title: 'Discriminant', content: 'Discriminant FunctionThe discriminant of a quadratic equation is: \( \varDelta = b^2 - 4ac \). The root of any quadratic equation depends...', url: 'en/discriminant.html'}};
+	const PAGES = {'-en-algebraContent.html': {title: 'Algebra of Complex number', content: 'Algebra of Complex Number ContentsFiles - Forumula Sheet - Surds - Complex Number - Plotting Complex Number on Argand Diagram - Completin...', url: 'en/algebraContent.html'}, '-en-algebraFiles.html': {title: 'Algebra of Complex number', content: 'Algebra of Complex Number ContentsFormula SheetMr Lal\'s - Algebra of complex number notes2018 algebra testMINI QUIZ answers for the quiz ...', url: 'en/algebraFiles.html'}, '-en-editSuggest.html': {title: 'Suggest an edit', content: 'Suggest an edit If you have come accross a mistake or would like to request a change in any of the resources, please leave a description ...', url: 'en/editSuggest.html'}, '-en-physicsContent.html': {title: 'Physics Contents', content: 'Physics Content- Mechanics- Electricity and Magnetism- Light and waves- Nuclear Physics', url: 'en/physicsContent.html'}, '-en-physicsFormula.html': {title: 'Physics Formula', content: 'Physics FormulaRearranging formula or rule means we write a given letter in terms of another letter with numbers (.i.e. solve the equatio...', url: 'en/physicsFormula.html'}, '-en-surds.html': {title: 'Surds', content: 'Surds (Roots)Surds are such expressions as \(\sqrt{7}\sqrt[3]{40}\) which cannot be evaluated exactly. They are irrational. Expressions i...', url: 'en/surds.html'}, '-en-rearrange.html': {title: 'Re-arranging Formula', content: 'Re-arranging FormulaRearranging formula or rule means we write a given letter in terms of another letter with numbers (.i.e. solve the eq...', url: 'en/rearrange.html'}, '-en-discriminant.html': {title: 'Discriminant', content: 'Discriminant FunctionThe discriminant of a quadratic equation is: \( \varDelta = b^2 - 4ac \). The root of any quadratic equation depends...', url: 'en/discriminant.html'}, '-en-chemContent.html': {title: 'Chemistry Contents', content: 'Chemistry Contents- Spectroscopy- REDOX- Organic Chemistry- Structure and Bonding- Thermo Chemistry- Aqueos Chemistry', url: 'en/chemContent.html'}, '-en-argand.html': {title: 'Argand Diagram - Plotting Complex Number', content: 'Plotting Complex Number on argand diagram Every complex number can be expressed as a point in the complex plane as it is expressed in the...', url: 'en/argand.html'}, '-en-idea.html': {title: 'Applying the idea of solving equations to complex number', content: 'Applying the idea of solving equations to complex numberRearranging formula or rule means we write a given letter in terms of another let...', url: 'en/idea.html'}, '-en-complex.html': {title: 'Complex Numbers', content: 'Complex numbersUnder real number system square roots of negative numbers does not exist. But in complex number system it is possible to f...', url: 'en/complex.html'}, '-en-page.html': {title: 'New page', content: 'PageThis is just a new page. You can edit it if you want !Paragraph 1Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. ...', url: 'en/page.html'}, '-en-completingTheSquare.html': {title: 'Surds', content: 'Completing the squareIt means that you write the quadratic expression, \( ax^2 + bx +c \) in the form a \(a(x+p)^2 + q\) where a, b, c, p...', url: 'en/completingTheSquare.html'}, '-en-solving.html': {title: 'Solving Quadratic Equations', content: 'Solving Quadratic EquationsA quadratic equation can be solved either by completing the square or by factorising or by using the quadratic...', url: 'en/solving.html'}, '-en-algebraFormulas.html': {title: 'Algebra NCEA Formula Sheet', content: '      \[-b \pm \sqrt{b^2-4ac}\] -->', url: 'en/algebraFormulas.html'}, '-en-dividingPolynomials.html': {title: 'Dividing Polynomials - Algebraic Fractions', content: 'Dividing Polynomials - Algebraic FractionsMethod for Long divisionArrange the divisor and the dividend in descending powers of x.Each ter...', url: 'en/dividingPolynomials.html'}, '-en-rootsCoefficients.html': {title: 'Roots and Coefficients - Relationship Formula', content: 'Relationships between Roots and CoefficientsIf \( \alpha \) and, \( \beta \) are the roots of the quadratic equation:\( ax^2 + bx + c = 0...', url: 'en/rootsCoefficients.html'}, '-en-index.html': {title: 'Home', content: 'WelcomeHi there, Welcome to my documentation for NCEA Level 3 - Math, Physics, and Chemistry!This site is currently being developed and t...', url: 'en/index.html'}, '-en-mathContent.html': {title: 'Maths Contents', content: 'Mathematics Contents- Algebra of Complex number- Differentiation- Integration- Trigonometry', url: 'en/mathContent.html'}};
 
 </script>
 <script type="text/javascript">
